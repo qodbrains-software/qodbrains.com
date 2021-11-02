@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(216, 216, 216, 0.5);
+}
+dt {
+    font-family: berlin sans fb;
+    font-size: 40px;
+}
+.code-block {
+    background-color: black;
+    color: skyblue;
+    border-style: ridge;
+    border-color: grey;
+    border-width: 3px;
+    padding: 4px;
+}
+.code-inline {
+    color: cyan;
+    background-color: black;
+    border: 2px ridge grey;
+    display: inline-block;
+}
+.code-attribute {
+    color: lime;
+}
+.code-element {
+    color: yellow;
+}
+.inline-link {
+    color: lightblue;
+    background-color: black;
+    border: 2px ridge grey;
+}
+.seo-header-1, .seo-header-2, .htaccess {
+    background-color: rgb(193, 193, 193);
+    border: thick hidden transparent;
+    margin: auto;
+}
