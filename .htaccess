@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.qodbrains.com$
-RewriteRule ^(.*)$ https://www.qodbrains.com/$1 [R=301,L]
