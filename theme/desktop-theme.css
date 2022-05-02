@@ -1,0 +1,415 @@
+@media (min-width: 62.5rem) {
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********MEDIA STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+  .logo-brand {
+    height: 70px;
+    width: auto;
+  }
+
+  .landing-animation {
+    width: 600px;
+    height: 600px;
+  }
+
+  .technology-icon {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********TYPOGRAPHY STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 2rem;
+  }
+
+  .banner-heading {
+    font-size: 2rem;
+  }
+
+  .button-text {
+    font-size: 0.9rem;
+  }
+
+  .sub-heading {
+    font-size: 2.3rem;
+    letter-spacing: 1.5px;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********BUTTONS STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .medium-button {
+    cursor: pointer;
+    height: 48px;
+    width: 158px;
+    border-radius: 5px;
+  }
+
+  .large-button {
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    border-radius: 12px;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            *********** OUTTER SPACING STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  /* OUTTER SPACER CLASSES*/
+  .center-by_margin__auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* TOP: outter spacer sizes */
+  .margin-top-small {
+    margin-top: 2rem;
+  }
+  .margin-top-medium {
+    margin-top: 3rem;
+  }
+  .margin-top-large {
+    margin-top: 5rem;
+  }
+
+  /* RIGHT: outter spacer sizes */
+  .margin-right-medium {
+    margin-right: 3rem;
+  }
+  .margin-right-large {
+    margin-right: 5rem;
+  }
+
+  /* BOTTOM: outter spacer sizes */
+  .margin-bottom-small {
+    margin-bottom: 2rem;
+  }
+  .margin-bottom-medium {
+    margin-bottom: 3rem;
+  }
+  .margin-bottom-large {
+    margin-bottom: 5rem;
+  }
+
+  /* LEFT: outter spacer sizes */
+  .margin-left-small {
+    margin-left: 2rem;
+  }
+  .margin-left-medium {
+    margin-left: 3rem;
+  }
+  .margin-left-large {
+    margin-left: 5rem;
+  }
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        *********** INNER SPACING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+  /* TOP: inner spacer sizes */
+  .padding-top-small {
+    padding-top: 2rem;
+  }
+  .padding-top-medium {
+    padding-top: 2rem;
+  }
+  .padding-top-large {
+    padding-top: 4rem;
+  }
+
+  /* RIGHT: inner spacer sizes */
+  .padding-right-small {
+    padding-right: 2rem;
+  }
+  .padding-right-medium {
+    padding-right: 2rem;
+  }
+  .padding-right-large {
+    padding-right: 4rem;
+  }
+
+  /* BOTTOM: inner spacer sizes */
+  .padding-bottom-small {
+    padding-bottom: 2rem;
+  }
+  .padding-bottom-medium {
+    padding-bottom: 2rem;
+  }
+  .padding-bottom-large {
+    padding-bottom: 4rem;
+  }
+
+  /* LEFT: inner spacer sizes */
+  .padding-left-small {
+    padding-left: 2rem;
+  }
+  .padding-left-medium {
+    padding-left: 2rem;
+  }
+  .padding-left-large {
+    padding-left: 4rem;
+  }
+
+  /* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CONTAINER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+}
+
+@media (min-width: 70rem) {
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********MEDIA STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .technology-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .landing-animation {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********TYPOGRAPHY STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .banner-heading {
+    font-size: 2.2rem;
+  }
+
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 1.7rem;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********CONTAINER DISPLAY STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .desktop-layout {
+    display: flex;
+    width: 90%;
+  }
+
+  .header-section_content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .spacer-reset {
+    padding-bottom: 0;
+  }
+
+  .self-start {
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 85.625rem) {
+  /* 
+      #########################################++++++++++++++++++++++++++++####################################
+                                                      *****************
+                                              ***********MEDIA STYLES*************
+                                                      *****************
+      #########################################++++++++++++++++++++++++++++####################################
+      */
+
+  .technology-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .landing-animation {
+    width: 500px;
+    height: 500px;
+  }
+
+  /* 
+      #########################################++++++++++++++++++++++++++++####################################
+                                                      *****************
+                                              ***********TYPOGRAPHY STYLES*************
+                                                      *****************
+      #########################################++++++++++++++++++++++++++++####################################
+      */
+
+  .banner-heading {
+    font-size: 2.2rem;
+  }
+
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 100rem) {
+  .width-reset {
+    width: 80%;
+  }
+
+  /* 
+      #########################################++++++++++++++++++++++++++++####################################
+                                                      *****************
+                                              ***********TYPOGRAPHY STYLES*************
+                                                      *****************
+      #########################################++++++++++++++++++++++++++++####################################
+      */
+
+  .banner-heading {
+    font-size: 2.2rem;
+  }
+
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 103.75rem) {
+  /* 
+      #########################################++++++++++++++++++++++++++++####################################
+                                                      *****************
+                                              ***********TYPOGRAPHY STYLES*************
+                                                      *****************
+      #########################################++++++++++++++++++++++++++++####################################
+      */
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 1.9rem;
+  }
+
+  /* 
+      #########################################++++++++++++++++++++++++++++####################################
+                                                      *****************
+                                              ***********MEDIA STYLES*************
+                                                      *****************
+      #########################################++++++++++++++++++++++++++++####################################
+      */
+
+  .technology-icon {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (min-width: 112.5rem) {
+  .width-reset {
+    width: 70%;
+  }
+}
+
+@media (min-width: 117.5rem) {
+  .width-reset {
+    width: 75%;
+  }
+
+  .top-spacer-reset {
+    margin-top: 0;
+  }
+
+  /* .card-width-reset {
+        width: ;
+    } */
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********TYPOGRAPHY STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+
+  .heading {
+    padding-right: 0.7rem;
+    font-size: 2.5rem;
+  }
+
+  .banner-heading {
+    font-size: 2.3rem;
+  }
+
+  .button-text {
+    font-size: 0.9rem;
+  }
+
+  .sub-heading {
+    font-size: 2.9rem;
+    letter-spacing: 1.5px;
+  }
+
+  /* 
+    #########################################++++++++++++++++++++++++++++####################################
+                                                    *****************
+                                            ***********MEDIA STYLES*************
+                                                    *****************
+    #########################################++++++++++++++++++++++++++++####################################
+    */
+  .logo-brand {
+    height: 70px;
+    width: auto;
+  }
+
+  .landing-animation {
+    width: 650px;
+    height: 650px;
+  }
+
+  .technology-icon {
+    width: 115px;
+    height: 115px;
+  }
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

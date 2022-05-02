@@ -1,0 +1,486 @@
+:root {
+  --primaryColor: #398bfd;
+  --secondaryColor: #4939fd;
+  --paragraphColor: #464646;
+  --paragraphSec: #8795a1;
+  --backgroundColor: #ffffff;
+}
+/* MOBILE STYLES */
+/* base STYLES */
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                                ***********BASE STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.font-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.15;
+  font-family: averta_stdregular, Helvetica Neue, Helvetica;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        *********** OUTTER SPACING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+/* OUTTER SPACER CLASSES*/
+.center-by_margin__auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TOP: outter spacer sizes */
+.margin-top-small {
+  margin-top: 1rem;
+}
+.margin-top-medium {
+  margin-top: 2rem;
+}
+.margin-top-large {
+  margin-top: 4rem;
+}
+
+/* RIGHT: outter spacer sizes */
+.margin-right-small {
+  margin-right: 1rem;
+}
+.margin-right-medium {
+  margin-right: 2rem;
+}
+.margin-right-large {
+  margin-right: 4rem;
+}
+
+/* BOTTOM: outter spacer sizes */
+.margin-bottom-small {
+  margin-bottom: 1rem;
+}
+.margin-bottom-medium {
+  margin-bottom: 2rem;
+}
+.margin-bottom-large {
+  margin-bottom: 4rem;
+}
+
+/* LEFT: outter spacer sizes */
+.margin-left-small {
+  margin-left: 1rem;
+}
+.margin-left-medium {
+  margin-left: 2rem;
+}
+.margin-left-large {
+  margin-left: 4rem;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        *********** INNER SPACING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+/* TOP: inner spacer sizes */
+.padding-top-small {
+  padding-top: 1rem;
+}
+.padding-top-medium {
+  padding-top: 2rem;
+}
+.padding-top-large {
+  padding-top: 4rem;
+}
+
+/* RIGHT: inner spacer sizes */
+.padding-right-small {
+  padding-right: 1rem;
+}
+.padding-right-medium {
+  padding-right: 2rem;
+}
+.padding-right-large {
+  padding-right: 4rem;
+}
+
+/* BOTTOM: inner spacer sizes */
+.padding-bottom-small {
+  padding-bottom: 1rem;
+}
+.padding-bottom-medium {
+  padding-bottom: 2rem;
+}
+.padding-bottom-large {
+  padding-bottom: 4rem;
+}
+
+/* LEFT: inner spacer sizes */
+.padding-left-small {
+  padding-left: 1rem;
+}
+.padding-left-medium {
+  padding-left: 2rem;
+}
+.padding-left-large {
+  padding-left: 4rem;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********TYPOGRAPHY STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.cap {
+  text-transform: capitalize;
+}
+
+.paragraph {
+  color: var(--paragraphSec);
+}
+
+.paragraph-common {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.paragraph-sec {
+  color: var(--paragraphSec);
+}
+
+.heading {
+  color: var(--primaryColor);
+  padding-right: 0.7rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.highlight {
+  color: var(--secondaryColor);
+}
+
+.sub-heading {
+  color: var(--paragraphColor);
+  font-size: 1.5rem;
+}
+
+.banner-heading {
+  color: var(--backgroundColor);
+}
+
+.button-text {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.card-heading {
+  font-size: 1.2rem;
+}
+
+.card-paragraph {
+  font-size: 0.7rem;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********MEDIA STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+.img-width {
+  width: 100%;
+}
+
+.logo-brand {
+  height: 45px;
+  width: auto;
+}
+
+.landing-animation {
+  width: 300px;
+  height: 300px;
+}
+
+.technology-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.process-image {
+  height: 200px;
+  width: auto;
+  align-self: flex-start;
+}
+
+.process-diagram {
+    width: 90%;
+    height: 50%;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********WIDTH CLASSES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.width100 {
+  width: 100%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.width77 {
+  width: 77%;
+}
+
+.width74 {
+  width: 74%;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********HAMBURGER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+.hamburger-container {
+  height: 28px;
+}
+
+.hamburger {
+  position: relative;
+  width: 20px;
+  height: 4px;
+  display: block;
+  background-color: var(--primaryColor);
+  border-radius: 4px;
+}
+
+.hamburger::before {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: var(--primaryColor);
+  border-radius: 4px;
+  width: 30px;
+  height: 4px;
+  top: -8px;
+  right: 0;
+}
+.hamburger::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background-color: var(--primaryColor);
+  border-radius: 4px;
+  width: 15px;
+  height: 4px;
+  top: 8px;
+  right: 0;
+}
+
+/* MOBILE MAIN STYLES STARTS  */
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CONTAINER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+.banner-container {
+  background-color: var(--primaryColor);
+}
+
+.mobile-header_container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CONTAINER DISPLAY STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.js-between {
+  justify-content: space-between;
+}
+
+.js-evenly {
+  justify-content: space-evenly;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-start {
+  align-items: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.grid-icons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  /* row-gap: 1rem; */
+}
+
+.grid-icons :nth-child(1) {
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.grid-icons :nth-child(2) {
+  grid-column: 4 / span 2;
+  grid-row: 2;
+  justify-self: center;
+}
+.grid-icons :nth-child(3) {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 2;
+  align-self: flex-start;
+  justify-self: center;
+}
+.grid-icons :nth-child(4) {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: start;
+}
+.grid-icons :nth-child(5) {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 3;
+  justify-self: center;
+  align-self: center;
+}
+.grid-icons :nth-child(6) {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+  justify-self: center;
+  align-self: center;
+}
+.grid-icons :nth-child(7) {
+  grid-column: 5;
+  grid-row: 1;
+  justify-self: end;
+}
+.grid-icons :nth-child(8) {
+  grid-column: 5;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.c-flex-reverse {
+  flex-direction: column-reverse;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********BUTTONS STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.button-colors_fonts {
+  background-color: var(--primaryColor);
+  color: var(--backgroundColor);
+}
+
+.btn-light {
+  color: var(--paragraphColor);
+  background-color: var(--backgroundColor);
+}
+
+.medium-button {
+  cursor: pointer;
+  height: 40px;
+  width: 147px;
+  border-radius: 5px;
+}
+
+.large-button {
+  cursor: pointer;
+  height: 53px;
+  width: 193px;
+  border-radius: 12px;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********POSITIONING STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.text-center {
+  text-align: center;
+}
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CARD STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.card {
+  background-color: #f6f6f6;
+}
+
+.medium-card {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
