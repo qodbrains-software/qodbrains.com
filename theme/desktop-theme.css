@@ -21,6 +21,12 @@
     height: 95px;
   }
 
+  .icon-size-bump {
+    width: 150px;
+    height: 150px;
+  }
+
+
   /* 
     #########################################++++++++++++++++++++++++++++####################################
                                                     *****************
@@ -205,6 +211,11 @@
     height: 100px;
   }
 
+  .icon-size-bump {
+    width: 150px;
+    height: 150px;
+  }
+
   .landing-animation {
     width: 400px;
     height: 400px;
@@ -266,6 +277,11 @@
   .technology-icon {
     width: 100px;
     height: 100px;
+  }
+
+  .icon-size-bump {
+    width: 150px;
+    height: 150px;
   }
 
   .landing-animation {
@@ -339,6 +355,10 @@
     width: 110px;
     height: 110px;
   }
+  .icon-size-bump {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 @media (min-width: 112.5rem) {
@@ -406,6 +426,12 @@
     width: 115px;
     height: 115px;
   }
+
+  .icon-size-bump {
+    width: 150px;
+    height: 150px;
+  }
+
 }
 
 #particles-js {
