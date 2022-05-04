@@ -447,11 +447,13 @@ body {
   background-color: var(--backgroundColor);
 }
 
-.medium-button {
+.medium-button,
+.about-us {
   cursor: pointer;
   height: 40px;
   width: 147px;
   border-radius: 5px;
+  transition: all 300ms ease-in-out;
 }
 
 .large-button {
@@ -459,6 +461,51 @@ body {
   height: 53px;
   width: 193px;
   border-radius: 12px;
+  transition: all 300ms ease-in-out;
+}
+
+
+/* 
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********BUTTONS HOVER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+
+.about-us:hover,
+.large-button:hover {
+    background-color: var(--backgroundColor);
+    color: var(--secondaryColor);
+}
+
+.about-us:hover::after {
+    position: absolute;
+    content: '';
+    display: block;
+    border-left: 1px solid var(--primaryColor);
+    border-top: 1px solid var(--primaryColor);
+    border-right: 1px solid var(--secondaryColor);
+    border-bottom: 1px solid var(--secondaryColor);
+    height: 40px;
+    width: 147px;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+.large-button:hover::after  {
+    position: absolute;
+    content: '';
+    display: block;
+    border-left: 1px solid var(--primaryColor);
+    border-top: 1px solid var(--primaryColor);
+    border-right: 1px solid var(--secondaryColor);
+    border-bottom: 1px solid var(--secondaryColor);
+    height: 60px;
+    width: 200px;
+    border-radius: 12px;
+    transition: all 300ms ease-in-out;
 }
 
 /* 
