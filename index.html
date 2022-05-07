@@ -162,31 +162,31 @@
             <div class="form-icon width74 center-by_margin__auto flex j-center margin-top-medium">
                 <lottie-player class="technology-icon" src="./animations/mail.json"  background="transparent"  speed="0.5" loop autoplay hover></lottie-player>
             </div>
-            <form class="width77 center-by_margin__auto flex j-center">
+            <form class="width90 center-by_margin__auto flex j-center">
                 <div class="input-container width77">
                     <div class="form margin-top-medium width100">
                         <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">Name</label>
+                        <label class="label_form font-body paragraph">Name</label>
                     </div>
                     <div class="form margin-top-medium">
                         <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">Surname</label>
+                        <label class="label_form font-body paragraph">Surname</label>
                     </div>
                     <div class="form margin-top-medium">
                         <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">Company Name</label>
+                        <label class="label_form font-body paragraph">Company Name</label>
                     </div>
                     <div class="form margin-top-medium">
                         <input class="email form_input" autocomplete="off" type="tel" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">Phone Number</label>
+                        <label class="label_form font-body paragraph">Phone Number</label>
                     </div>
                     <div class="form margin-top-medium">
                         <input class="email form_input" autocomplete="off" type="email" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">Email</label>
+                        <label class="label_form font-body paragraph">Email</label>
                     </div>
                     <div class="input-label form margin-top-medium ">
                         <input class="form_input" type="textarea" required autocomplete="off" type="text" rows="4" cols="50" placeholder=" ">
-                        <label class="label_form font-body paragraph-common paragraph">More Info</label>
+                        <label class="label_form font-body paragraph">More Info</label>
                     </div>
                     <div class="flex j-center self-start margin-top-medium ">
                         <div class="button about-us button-colors_fonts flex j-center a-center">
@@ -199,7 +199,6 @@
         </section>
     </main>
     <script>
-        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
         particlesJS.load('particles-js', './animations/particles.json', function() {
         console.log('callback - particles.js config loaded');
         });
@@ -207,12 +206,10 @@
         window.onload = function () {
             lax.init()
 
-            // Add a driver that we use to control our animations
             lax.addDriver('scrollY', function () {
             return window.scrollY
             })
 
-            // Add animation bindings to elements
             lax.addElements('.selector', {
             scrollY: {
                 translateX: [
