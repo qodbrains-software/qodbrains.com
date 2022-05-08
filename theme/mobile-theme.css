@@ -596,7 +596,7 @@ body {
   position: absolute;
   display: inline-block;
   left: 1rem;
-  top: .8rem;
+  top: .9rem;
   cursor: text;
   transition: top 200ms ease-in, 
               left 200ms ease-in,
