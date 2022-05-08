@@ -4,6 +4,7 @@
   --paragraphColor: #464646;
   --paragraphSec: #8795a1;
   --backgroundColor: #ffffff;
+  --footerBackgroundColor: #FFFCFC;
 }
 /* MOBILE STYLES */
 /* base STYLES */
@@ -649,4 +650,20 @@ body {
 
 .cursor-text {
   cursor: text;
+}
+
+/*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********FOOTER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.footer-bg-color {
+  background-color: var(--footerBackgroundColor);
+}
+
+.social-media-handles {
+  border-bottom: 1px solid var(--paragraphColor);
 }
