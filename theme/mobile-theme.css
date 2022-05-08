@@ -36,6 +36,14 @@ a {
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  background-color: var(--backgroundColor);
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
 html,
 body {
   line-height: 1.15;
