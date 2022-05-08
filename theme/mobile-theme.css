@@ -4,6 +4,7 @@
   --paragraphColor: #464646;
   --paragraphSec: #8795a1;
   --backgroundColor: #ffffff;
+  --footerBackgroundColor: #FFFCFC;
 }
 /* MOBILE STYLES */
 /* base STYLES */
@@ -434,6 +435,18 @@ body {
   display: none;
 }
 
+/*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********CONTAINER ITEMS STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.a-self-center {
+  align-self: center;
+}
+
 /* 
 #########################################++++++++++++++++++++++++++++####################################
                                                 *****************
@@ -559,6 +572,69 @@ body {
   border-radius: 10px;
 }
 
+
+/*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********FORM STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+
+.form {
+  position: relative;
+  width: 100%;
+  height: 3rem;
+}
+
+.text-area-style {
+  height: auto;
+  resize: none;
+}
+
+.form input, textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--paragraphColor);
+  border-radius: 5px;
+  outline: none;
+  padding: 1rem;
+  background: none;
+}
+
+.form_input:focus {
+  border: 2px solid #398bfd;
+}
+
+.form label {
+  position: absolute;
+  display: inline-block;
+  left: 1rem;
+  top: .9rem;
+  cursor: text;
+  transition: top 200ms ease-in, 
+              left 200ms ease-in,
+              font-size 200ms ease-in;
+}
+
+.label_form {
+  z-index: -1;
+}
+
+.form_input:focus ~ .label_form,
+.form_input:not(:placeholder-shown).form_input:not(:focus) ~ .label_form {
+  top: -.8rem;
+  background-color: var(--backgroundColor);
+  color: #398bfd;
+  padding: 0 5px;
+  z-index: 0;
+
+}
+
 /*
 #########################################++++++++++++++++++++++++++++####################################
                                                 *****************
@@ -566,6 +642,7 @@ body {
                                                 *****************
 #########################################++++++++++++++++++++++++++++####################################
 */
+
 
 .font-size_nav-items {
   font-size: 1.05rem;
@@ -586,3 +663,24 @@ body {
 .cursor-text {
   cursor: text;
 }
+
+/*
+#########################################++++++++++++++++++++++++++++####################################
+                                                *****************
+                                        ***********FOOTER STYLES*************
+                                                *****************
+#########################################++++++++++++++++++++++++++++####################################
+*/
+
+.footer-bg-color {
+  background-color: var(--footerBackgroundColor);
+}
+
+.social-media-handles {
+  border-bottom: 1px solid var(--paragraphColor);
+}
+
+.social-icon-size {
+  font-size: 1.5rem;
+}
+

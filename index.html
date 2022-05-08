@@ -92,7 +92,7 @@
             <div id="particles-js"></div>
             <div class="why-us_content">
                 <h2 class="sub-heading font-heading text-center sub-heading headings-common_styles">Why Work With Us</h2>
-                <p class="paragraph-sec paragraph-common width77 center-by_margin__auto margin-top-medium text-center">We specialize in Software, Web and Mobile Application Development and Design. We also use the latest and secure tools such as React.js, Node/JavaScript, Figma, Adobe XD, Amazon Web Services, Java, Spring Boot, Relational and Non-relational databases as well as various Cloud Platforms and more, ensuring that our clients receive robust, secure and efficient solutions for their problems.</p>
+                <p class="paragraph-sec paragraph-common width77 center-by_margin__auto margin-top-medium text-center content-container-width">We specialize in Software, Web and Mobile Application Development and Design. We also use the latest and secure tools such as React.js, Node/JavaScript, Figma, Adobe XD, Amazon Web Services, Java, Spring Boot, Relational and Non-relational databases as well as various Cloud Platforms and more, ensuring that our clients receive robust, secure and efficient solutions for their problems.</p>
             </div>
             <div class="why-us-media grid-icons margin-top-medium margin-bottom-medium">
                     <div class="tech-icon lax lax_preset_fadeInOut:233.25:0 lax_preset_scaleInOut:233.25:0.6 lax_preset_blurInOut:233.25:20"><lottie-player src="./animations/JS.json"  background="transparent"  speed="0.7"  class="technology-icon"  loop  autoplay></lottie-player></div>
@@ -166,11 +166,78 @@
         </section>
          <section class="get-in-touch margin-bottom-medium" id="get-in-touch">
             <h2 class="sub-heading font-heading text-center sub-heading headings-common_styles">Get In Touch</h2>
-            <p class="paragraph-sec paragraph-common width77 center-by_margin__auto margin-top-medium text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quia ratione numquam ea omnis</p>
+            <p class="paragraph-sec paragraph-common width77 center-by_margin__auto margin-top-medium text-center">Please complete the fields below and submit to us with any of your comments, suggestions or questions and we will get back to you shortly.</p>
+            <div class="form-icon width74 center-by_margin__auto flex j-center margin-top-medium">
+                <lottie-player class="technology-icon" src="./animations/mail.json"  background="transparent"  speed="0.5" loop autoplay></lottie-player>
+            </div>
+            <form class="width90 center-by_margin__auto flex j-center">
+                <div class="input-container width100">
+                    <div class="form margin-top-medium width100">
+                        <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
+                        <label class="label_form font-body paragraph">Name</label>
+                    </div>
+                    <div class="form margin-top-medium">
+                        <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
+                        <label class="label_form font-body paragraph">Surname</label>
+                    </div>
+                    <div class="form margin-top-medium">
+                        <input class="email form_input" autocomplete="off" type="text" placeholder=" ">
+                        <label class="label_form font-body paragraph">Company Name</label>
+                    </div>
+                    <div class="form margin-top-medium">
+                        <input class="email form_input" autocomplete="off" type="tel" placeholder=" ">
+                        <label class="label_form font-body paragraph">Phone Number</label>
+                    </div>
+                    <div class="form margin-top-medium">
+                        <input class="email form_input" autocomplete="off" type="email" placeholder=" ">
+                        <label class="label_form font-body paragraph">Email</label>
+                    </div>
+                    <div class="input-label form margin-top-medium margin-bottom-medium">
+                        <textarea class="form_input text-area-style" type="textarea" required autocomplete="off" type="text" rows="4" cols="50" placeholder=" "></textarea>
+                        <label class="label_form font-body paragraph">Message</label>
+                    </div>
+                    <div class="flex j-center self-start margin-top-large ">
+                        <div class="button about-us button-colors_fonts flex j-center a-center">
+                            <p class="button-text font-body margin-right-small">Submit</p>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </section>
+        <footer class="width100 footer-bg-color margin-top-large padding-bottom-medium">
+            <div class="content-container width90 center-by_margin__auto">
+                <div class="contact margin-bottom-small">
+                    <div class="contact-numbers margin-bottom-small">
+                        <h4 class="font-heading padding-top-small">Contact us:</h4>
+                        <p class="font-body">+27 63 978 3205</p>
+                    </div>
+                    <div class="address margin-bottom-small">
+                        <h4 class="font-heading">Address:</h4>
+                        <p class="font-body">111 Commissioner Street, <br> Johannesburg <br> 2001</p>
+                    </div>
+                    <div class="email-address">
+                        <h4 class="font-heading">Email address:</h4>
+                        <p class="font-body">info@qodbrains.com</p>
+                    </div>
+                </div>
+                <div class="social-media-handles">
+                    <i class="ri-facebook-fill margin-right-small social-icon-size cursor-pointer"></i>
+                    <i class="ri-instagram-line margin-right-small social-icon-size cursor-pointer"></i>
+                    <i class="ri-twitter-fill margin-right-small social-icon-size cursor-pointer"></i>
+                    <i class="ri-whatsapp-line margin-right-small social-icon-size cursor-pointer"></i>
+                    <i class="ri-linkedin-fill social-icon-size cursor-pointer"></i>
+                </div>
+                <div class="copy-right-brand flex flex-col margin-top-small">
+                    <p class="copyright-text font-body">Copyright &copy; 2022 Qodbrains. <br> All Rights Reserved.</p>
+                    <div class="brand a-self-center margin-top-small">
+                        <img class="logo-brand" src="./media/logo-gray.png" alt="qodbrains logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
     <script>
-        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
         particlesJS.load('particles-js', './animations/particles.json', function() {
         console.log('callback - particles.js config loaded');
         });
@@ -178,12 +245,10 @@
         window.onload = function () {
             lax.init()
 
-            // Add a driver that we use to control our animations
             lax.addDriver('scrollY', function () {
             return window.scrollY
             })
 
-            // Add animation bindings to elements
             lax.addElements('.selector', {
             scrollY: {
                 translateX: [
