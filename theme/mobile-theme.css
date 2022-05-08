@@ -464,14 +464,14 @@ body {
   height: 50vh;
   position: fixed;
   z-index: 101;
-  left: 40px;
-  opacity: 0;
+  top: -500px;
+  opacity: 0.5;
   transition: all 0.5s;
 }
 
 .mobile-nav-show {
   opacity: 1;
-  left: 0px;
+  top: 80.7px;
 }
 
 /*
