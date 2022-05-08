@@ -575,7 +575,12 @@ body {
   height: 3rem;
 }
 
-.form input {
+.text-area-style {
+  height: auto;
+  resize: none;
+}
+
+.form input, textarea {
   position: absolute;
   top: 0;
   left: 0;
